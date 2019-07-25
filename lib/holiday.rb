@@ -75,7 +75,6 @@ def all_supplies_in_holidays(holiday_hash)
       puts "  #{formatted_key}: #{value.join(", ")}"
     end
   end
-  puts all_supplies
 end
 
 def all_holidays_with_bbq(holiday_hash)
