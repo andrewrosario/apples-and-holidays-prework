@@ -70,6 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       formatted_key = formatted_key.map do |index|
         index.capitalize
       end
+      formatted_key = formatted_key.join(" ")
       puts formatted_key
       # puts "  #{key.to_s.tr("_", " ").split.capitalize.join(" ")}: #{value.join(", ")}"
     end
