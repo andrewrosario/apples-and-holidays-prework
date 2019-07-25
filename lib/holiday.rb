@@ -47,8 +47,7 @@ def all_winter_holiday_supplies(holiday_hash)
   all_supplies = []
   holiday_hash.each do |key, value|
     holiday_hash[key].each do |key, value|
-      puts key
-      puts value
+      puts value.class
     end
   end
   return all_supplies
