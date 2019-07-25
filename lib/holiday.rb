@@ -71,8 +71,8 @@ def all_supplies_in_holidays(holiday_hash)
         index.capitalize
       end
       formatted_key = formatted_key.join(" ")
-      puts formatted_key
-      # puts "  #{key.to_s.tr("_", " ").split.capitalize.join(" ")}: #{value.join(", ")}"
+      
+      puts "  #{formatted_key}: #{value.join(", ")}"
     end
   end
   puts all_supplies
