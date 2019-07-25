@@ -65,6 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   all_supplies = []
   holiday_hash.each do |key, value|
+    puts key
     holiday_hash[key].each do |key, value|
       value.each do |index|
         all_supplies << index
